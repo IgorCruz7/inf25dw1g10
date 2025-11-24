@@ -7,7 +7,6 @@ Desenvolver uma API REST que permita gerir horários e aulas, com operações CR
 
 ## Organização do Repositório
 - **src/** → código da API
-- **doc/** → relatório em Markdown
 - **openapi.yaml** → documentação da API
 - **docker-compose.yml** → configuração multi-container
 
