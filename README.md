@@ -22,6 +22,7 @@ Desenvolver uma API REST que permita gerir horários e aulas, com operações CR
 - mysql2
 - dotenv
 - cors
+- nodemon
 
 
 ## Relatório
