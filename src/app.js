@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 import express from 'express';
 import { pool } from './db.js';
 // importa os routers
@@ -36,4 +34,4 @@ app.get('/ping', async (req, res) => {
 
 const port = 3000;
 app.listen(port, () => console.log(`Servidor a correr na porta ${port}`));
->>>>>>> a069d5e (Projeto com Api e Docker)
+
