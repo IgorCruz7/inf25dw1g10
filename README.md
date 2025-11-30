@@ -26,10 +26,10 @@ Desenvolver uma API REST que permita gerir horários e aulas, com operações CR
 
 
 ## Relatório
-- **Capítulo 1:** Apresentação do projeto  
-- **Capítulo 2:** Recursos  
-- **Capítulo 3:** Produto  
-- **Capítulo 4:** Apresentação  
+### Capítulo 1: Apresentação do projeto
+### Capítulo 2: Recursos
+### Capítulo 3: Produto
+### Capítulo 4: Apresentação
 
 ## Equipa
 - Igor Carlos Santos Cruz (@inf25dw1g10) A043765
