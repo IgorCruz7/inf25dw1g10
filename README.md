@@ -27,6 +27,19 @@ Desenvolver uma API REST que permita gerir horários e aulas, com operações CR
 
 ## Relatório
 ### Capítulo 1: Apresentação do projeto
+Este projeto consiste numa **API REST** para gestão de horários escolares, permitindo operações CRUD sobre:
+-Alunos
+-Professores
+-Salas
+-Horários
+-Aulas
+###Justificaçãi das Tecnologias
+As tecnologias escolhidas forma:
+- **Node.js** → Plataforma para executar JavaScript no servidor
+- **Express** → Framework para criar rotas e gerir requisições HTTP
+- **MySQL** → Base de dados relacional para armazenar informações
+- **Docker** → Containerização para simplificar a execução e distribuição
+- **OpenAPI 3.0** → Documentação clara e padronizada da API
 ### Capítulo 2: Recursos
 ### Capítulo 3: Produto
 ### Capítulo 4: Apresentação
