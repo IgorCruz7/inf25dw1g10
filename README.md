@@ -33,7 +33,7 @@ Este projeto consiste numa **API REST** para gestão de horários escolares, per
 -Salas
 -Horários
 -Aulas
-### Justificaçãi das Tecnologias
+### Justificação das Tecnologias
 As tecnologias escolhidas forma:
 - **Node.js** → Plataforma para executar JavaScript no servidor
 - **Express** → Framework para criar rotas e gerir requisições HTTP
