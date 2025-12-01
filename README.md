@@ -47,7 +47,9 @@ As tecnologias escolhidas forma:
 - **openapi.yaml** → documentação da API em formato OpenAPI 3.0
 - **docker-compose.yml** → configuração multi-container (API + MySQL)
 - **Dockerfile** → definição da imagem
-### Capítulo 3: Produto
+- **Base de Dados** → O projeto utiliza uma base de dados MySQL chamada **school**.  
+Para garantir replicabilidade, disponibiliza-se apenas o ficheiro `schema.sql` com a estrutura das tabelas e alguns dados de teste. 
+
 ### Capítulo 3: Produto
 
 O produto final consiste numa **API REST** desenvolvida em Node.js e Express, integrada com uma base de dados MySQL e containerizada com Docker. O sistema permite gerir horários escolares através de operações CRUD sobre os seguintes recursos:
