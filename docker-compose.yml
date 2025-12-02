@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   api:
-    build: .
+    image: inf25dw1g10/api-horarios
     ports:
       - "3000:3000"
     environment:
@@ -13,10 +13,8 @@ services:
       - db
 
   db:
-    image: mysql:8.0
+    image: inf25dw1g10/mysql-db
     restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: Igor1234!
-      MYSQL_DATABASE: school
     ports:
       - "3306:3306"
+
