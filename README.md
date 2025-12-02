@@ -44,6 +44,9 @@ As tecnologias escolhidas forma:
  projeto está organizado de forma modular, com os seguintes ficheiros principais:
 
 - **src/** → contém o código da API (rotas, conexão ao banco, lógica de negócio)
+- **mysql-db/** → pasta dedicada ao container da base de dados, incluindo:
+  - **Dockerfile** → definição da imagem MySQL personalizada
+  - **schema.sql** → estrutura da base de dados e dados de teste (carregados automaticamente no primeiro arranque)
 - **openapi.yaml** → documentação da API em formato OpenAPI 3.0
 - **docker-compose.yml** → configuração multi-container (API + MySQL)
 - **Dockerfile** → definição da imagem
@@ -68,7 +71,7 @@ O produto final consiste numa **API REST** desenvolvida em Node.js e Express, in
 
 - **Integração com MySQL**  
   - Ficheiro `db.js` para conexão ao banco de dados.  
-  - Scripts SQL (`schema.sql`) para criação das tabelas de alunos, professores, salas, horários e aulas.  
+  - Pasta `src/mysql-db/` com `Dockerfile` e `schema.sql` 
   - Dados de teste inseridos para validação dos endpoints.
 
 - **Documentação com OpenAPI 3.0**  
@@ -83,6 +86,10 @@ O produto final consiste numa **API REST** desenvolvida em Node.js e Express, in
 As imagens foram publicadas no Docker Hub, permitindo execução em qualquer máquina sem necessidade de build local:
 - [inf25dw1g10/api-horarios](https://hub.docker.com/r/inf25dw1g10/api-horarios)
 - [inf25dw1g10/mysql-db](https://hub.docker.com/r/inf25dw1g10/mysql-db)
+
+### Relação entre Recursos
+A estrutura da base de dados permite apresentar relações entre os recursos:
+- **Professores ↔ Horários (1:N):** Um professor pode ter vários horários atribuídos ao longo da semana
 
 
 ## Equipa
