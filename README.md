@@ -79,7 +79,11 @@ O produto final consiste numa **API REST** desenvolvida em Node.js e Express, in
   - `Dockerfile` para criar a imagem da API.  
   - `docker-compose.yml` para orquestrar API + MySQL em containers separados.  
   - Simplificação da execução do projeto em qualquer ambiente.
-### Capítulo 4: Apresentação
+### Publicação
+As imagens foram publicadas no Docker Hub, permitindo execução em qualquer máquina sem necessidade de build local:
+- [inf25dw1g10/api-horarios](https://hub.docker.com/r/inf25dw1g10/api-horarios)
+- [inf25dw1g10/mysql-db](https://hub.docker.com/r/inf25dw1g10/mysql-db)
+
 
 ## Equipa
 - Igor Carlos Santos Cruz (@inf25dw1g10) A043765
